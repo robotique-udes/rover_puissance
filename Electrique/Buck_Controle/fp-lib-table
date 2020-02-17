@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Buck_Controle)(type KiCad)(uri ${KIPRJMOD}/Buck_Controle.pretty)(options "")(descr ""))
+)
