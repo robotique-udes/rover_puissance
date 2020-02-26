@@ -1,4 +1,4 @@
-update=Sat 22 Feb 2020 02:11:16 PM EST
+update=2020-02-25 8:00:13 PM
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/home/gabriel/Documents/repos/rover_puissance/Electrique/KiCad_Divers/Template_schematic.kicad_wks
+PageLayoutDescrFile=C:/Users/User/Documents/Repos/rover_puissance/Electrique/KiCad_Divers/Template_schematic.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
