@@ -1,3 +1,0 @@
-User
-DESKTOP-0A6K8FI 
-February 25, 2020  8:58:15 PM
