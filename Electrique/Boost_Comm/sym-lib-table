@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Boost_Comm-cache)(type Legacy)(uri ${KIPRJMOD}/Boost_Comm-cache.lib)(options "")(descr ""))
+  (lib (name Custom_Boost_Comm)(type Legacy)(uri ${KIPRJMOD}/Custom_Boost_Comm.lib)(options "")(descr ""))
+)
