@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name Buck_Controle)(type KiCad)(uri ${KIPRJMOD}/Buck_Controle.pretty)(options "")(descr ""))
-  (lib (name Robotique_UdeS_Logos_KiCad)(type KiCad)(uri /home/gabriel/Documents/repos/rover_puissance/Electrique/Robotique_UdeS_Logos_KiCad)(options "")(descr ""))
+  (lib (name KiCad_Divers)(type KiCad)(uri /home/gabriel/Documents/repos/rover_puissance/Electrique/KiCad_Divers)(options "")(descr ""))
 )
