@@ -311,8 +311,6 @@ Connection ~ 4550 3600
 Wire Wire Line
 	5050 2850 5050 2350
 Connection ~ 6950 5100
-Wire Wire Line
-	6950 5100 7100 5100
 Connection ~ 6950 5800
 Wire Wire Line
 	6950 5800 6150 5800

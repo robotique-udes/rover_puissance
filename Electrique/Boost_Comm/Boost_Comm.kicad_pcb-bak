@@ -342,7 +342,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5E648543)
-    (at 156.605 111.76)
+    (at 156.21 113.03)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5E55E241)
@@ -378,7 +378,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E648532)
-    (at 156.21 109.22)
+    (at 156.21 110.49)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5E55DD1F)
@@ -412,7 +412,7 @@
   )
 
   (module Resistor_SMD:R_0201_0603Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E648523)
-    (at 149.86 107.95 270)
+    (at 148.59 109.22 270)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5E55D917)
@@ -561,7 +561,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E6484D1)
-    (at 152.4 105.41 180)
+    (at 147.32 105.41 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5E574B79)
@@ -595,7 +595,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E6484C2)
-    (at 152.4 102.87 180)
+    (at 147.19 102.87 180)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5E575932)
@@ -781,7 +781,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E648453)
-    (at 152.4 111.76 270)
+    (at 151.13 113.03 270)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5E576755)
@@ -817,7 +817,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E648442)
-    (at 152.4 107.95 90)
+    (at 151.13 109.22 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5E5741D0)
