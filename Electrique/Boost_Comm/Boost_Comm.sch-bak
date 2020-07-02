@@ -211,8 +211,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 5800 2400 5250
 Wire Wire Line
-	1200 3350 1700 3350
-Wire Wire Line
 	1700 3350 1700 4700
 Connection ~ 2400 4700
 Wire Wire Line
@@ -311,8 +309,6 @@ Connection ~ 4550 3600
 Wire Wire Line
 	5050 2850 5050 2350
 Connection ~ 6950 5100
-Wire Wire Line
-	6950 5100 7100 5100
 Connection ~ 6950 5800
 Wire Wire Line
 	6950 5800 6150 5800
@@ -516,5 +512,48 @@ F 3 "~" H 5600 2350 50  0001 C CNN
 F 4 "63.0 mW" H 5600 2350 50  0001 C CNN "Power_MAX"
 	1    5600 2350
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 4700 8750 4700
+Wire Wire Line
+	8750 4700 8750 5150
+Wire Wire Line
+	8200 5800 8750 5800
+Wire Wire Line
+	8750 5800 8750 5250
+Connection ~ 8200 5800
+Wire Wire Line
+	1200 3350 1700 3350
+Wire Wire Line
+	1200 3350 950  3350
+Wire Wire Line
+	950  3350 950  3550
+Connection ~ 1200 3350
+Wire Wire Line
+	950  3650 950  5800
+Wire Wire Line
+	950  5800 1700 5800
+Connection ~ 1700 5800
+$Comp
+L Connector:Screw_Terminal_01x02 In_bus
+U 1 1 5EF4F93F
+P 1150 3550
+F 0 "In_bus" H 1230 3542 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 1230 3451 50  0000 L CNN
+F 2 "" H 1150 3550 50  0001 C CNN
+F 3 "~" H 1150 3550 50  0001 C CNN
+	1    1150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5EF51525
+P 8950 5150
+F 0 "J?" H 9030 5142 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9030 5051 50  0000 L CNN
+F 2 "" H 8950 5150 50  0001 C CNN
+F 3 "~" H 8950 5150 50  0001 C CNN
+	1    8950 5150
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
