@@ -535,23 +535,23 @@ Wire Wire Line
 	950  5800 1700 5800
 Connection ~ 1700 5800
 $Comp
-L Connector:Screw_Terminal_01x02 In_bus
+L Connector:Screw_Terminal_01x02 In_bus1
 U 1 1 5EF4F93F
 P 1150 3550
-F 0 "In_bus" H 1230 3542 50  0000 L CNN
+F 0 "In_bus1" H 1230 3542 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 1230 3451 50  0000 L CNN
-F 2 "" H 1150 3550 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1150 3550 50  0001 C CNN
 F 3 "~" H 1150 3550 50  0001 C CNN
 	1    1150 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 Out_Bus
+L Connector:Screw_Terminal_01x02 Out_Bus1
 U 1 1 5EF51525
 P 8950 5150
-F 0 "Out_Bus" H 9030 5142 50  0000 L CNN
+F 0 "Out_Bus1" H 9030 5142 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 9030 5051 50  0000 L CNN
-F 2 "" H 8950 5150 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8950 5150 50  0001 C CNN
 F 3 "~" H 8950 5150 50  0001 C CNN
 	1    8950 5150
 	1    0    0    -1  

@@ -546,10 +546,10 @@ F 3 "~" H 1150 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 Out_Bus
 U 1 1 5EF51525
 P 8950 5150
-F 0 "J?" H 9030 5142 50  0000 L CNN
+F 0 "Out_Bus" H 9030 5142 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 9030 5051 50  0000 L CNN
 F 2 "" H 8950 5150 50  0001 C CNN
 F 3 "~" H 8950 5150 50  0001 C CNN
