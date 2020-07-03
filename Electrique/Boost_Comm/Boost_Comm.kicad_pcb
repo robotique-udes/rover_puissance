@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
-    (tracks 50)
+    (drawings 8)
+    (tracks 52)
     (zones 0)
     (modules 23)
     (nets 16)
@@ -741,7 +741,7 @@
     (tags "inductor Wuerth hci smd")
     (path /5E57D2C5)
     (attr smd)
-    (fp_text reference L1 (at 0 7.62 90) (layer F.SilkS)
+    (fp_text reference L1 (at -8.9205 0.205 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "33.0 uH" (at 0 7.9 90) (layer F.Fab)
@@ -1002,6 +1002,15 @@
     )
   )
 
+  (gr_arc (start 184.2135 131.699) (end 184.2135 134.874) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EFE8213))
+  (gr_arc (start 149.987 131.699) (end 146.812 131.699) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EFE8213))
+  (gr_arc (start 149.987 86.36) (end 149.987 83.185) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5EFE8213))
+  (gr_arc (start 184.15 86.36) (end 187.325 86.36) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 149.987 83.185) (end 184.15 83.185) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 146.812 131.699) (end 146.812 86.36) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 184.2135 134.874) (end 149.987 134.874) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 187.325 86.36) (end 187.3885 131.699) (layer Edge.Cuts) (width 0.05))
+
   (via (at 166.878 116.7765) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 8))
   (via (at 160.528 115.6335) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 8))
   (segment (start 161.671 116.7765) (end 160.528 115.6335) (width 0.25) (layer B.Cu) (net 8))
@@ -1019,8 +1028,6 @@
   (segment (start 159.63 105.305) (end 159.63 105.68) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 152.013 106.837) (end 152.4 106.837) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 150.9 109.15) (end 150.9 109.38) (width 0.25) (layer F.Cu) (net 4))
-  (segment (start 150.9 107.637) (end 150.9 109.15) (width 0.25) (layer F.Cu) (net 4))
-  (segment (start 151.7 106.837) (end 150.9 107.637) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 152.4 106.837) (end 151.7 106.837) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 153.932 107.18) (end 152.4 108.712) (width 0.25) (layer F.Cu) (net 5))
   (segment (start 155.33 107.18) (end 153.932 107.18) (width 0.25) (layer F.Cu) (net 5))
@@ -1037,6 +1044,10 @@
   (segment (start 159.1 127.4755) (end 158.3055 128.27) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 168.2015 118.1) (end 170.225 118.1) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 166.878 116.7765) (end 168.2015 118.1) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 160.528 115.067815) (end 160.528 115.6335) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 160.528 114.653) (end 160.528 115.067815) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 159.975 114.1) (end 160.528 114.653) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 159.1 114.1) (end 159.975 114.1) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 152.78 103.08) (end 152.8 103.1) (width 0.25) (layer F.Cu) (net 9))
   (segment (start 152.78 101.5) (end 152.78 103.08) (width 0.25) (layer F.Cu) (net 9))
   (segment (start 155.321 105.671) (end 155.33 105.68) (width 0.25) (layer F.Cu) (net 9))
@@ -1392,6 +1403,24 @@
     (filled_polygon
       (pts
         (xy 165.227 130.048) (xy 161.6075 130.048) (xy 161.6075 117.094) (xy 165.227 117.094)
+      )
+    )
+  )
+  (zone (net 4) (net_name "Net-(Ccomp1-Pad2)") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 153.035 107.6325) (xy 151.0665 107.6325) (xy 151.13 109.6645) (xy 150.6855 109.6645) (xy 150.6855 106.4895)
+        (xy 153.035 106.426)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 152.908 107.129198) (xy 152.531699 107.5055) (xy 151.0665 107.5055) (xy 151.041724 107.50794) (xy 151.017899 107.515167)
+        (xy 150.995943 107.526903) (xy 150.976697 107.542697) (xy 150.960903 107.561943) (xy 150.949167 107.583899) (xy 150.94194 107.607724)
+        (xy 150.939562 107.636467) (xy 150.98692 109.151928) (xy 150.8125 109.151928) (xy 150.8125 106.613114) (xy 152.908 106.556479)
       )
     )
   )
