@@ -308,27 +308,11 @@ Wire Wire Line
 Connection ~ 4550 3600
 Wire Wire Line
 	5050 2850 5050 2350
-Connection ~ 6950 5100
 Connection ~ 6950 5800
 Wire Wire Line
 	6950 5800 6150 5800
 Wire Wire Line
 	6950 5800 7550 5800
-$Comp
-L Device:Q_NMOS_DGS M1
-U 1 1 5E5F36EA
-P 6850 4450
-F 0 "M1" H 7054 4496 50  0000 L CNN
-F 1 "CSD17571Q2" H 7054 4405 50  0000 L CNN
-F 2 "Boost_Comm:CSD17571Q2" H 7050 4550 50  0001 C CNN
-F 3 "~" H 6850 4450 50  0001 C CNN
-	1    6850 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 4650 6950 5100
-Wire Wire Line
-	6650 4450 6550 4450
 $Comp
 L Device:C Coutx1
 U 1 1 5E5F7CBA
@@ -343,12 +327,7 @@ $EndComp
 Wire Wire Line
 	7250 3350 7550 3350
 Wire Wire Line
-	7550 3350 7550 4700
-Wire Wire Line
-	7550 4700 8200 4700
-Wire Wire Line
 	8200 4700 8200 5000
-Connection ~ 7550 4700
 Wire Wire Line
 	7550 4700 7550 5000
 Wire Wire Line
@@ -443,9 +422,6 @@ Wire Wire Line
 	1700 3350 5450 3350
 Wire Wire Line
 	5750 2850 8200 2850
-Connection ~ 6950 3350
-Wire Wire Line
-	6950 4250 6950 3350
 Wire Wire Line
 	5750 3350 6950 3350
 Wire Wire Line
@@ -556,4 +532,28 @@ F 3 "~" H 8950 5150 50  0001 C CNN
 	1    8950 5150
 	1    0    0    -1  
 $EndComp
+Connection ~ 7550 4700
+Wire Wire Line
+	7550 4700 8200 4700
+Wire Wire Line
+	7550 3350 7550 4700
+Connection ~ 6950 5100
+Connection ~ 6950 3350
+$Comp
+L Boost_Comm-rescue:Custom_Boost_Comm_Q_NMOS_DGS_comm-Boost_Comm-cache M1
+U 1 1 5E5F36EA
+P 6850 4450
+F 0 "M1" H 7054 4496 50  0000 L CNN
+F 1 "CSD17571Q2" H 7054 4405 50  0000 L CNN
+F 2 "Boost_Comm:7inch_SON_2x2_mm" H 7050 4550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/csd17571q2.pdf?ts=1605385207733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCSD17571Q2%253FCMP%253Dconv-poasamples" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4650 6950 5100
+Wire Wire Line
+	6950 4250 6950 3350
+Wire Wire Line
+	6650 4450 6550 4450
 $EndSCHEMATC
