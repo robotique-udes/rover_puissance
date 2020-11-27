@@ -545,7 +545,7 @@ U 1 1 5E5F36EA
 P 6850 4450
 F 0 "M1" H 7054 4496 50  0000 L CNN
 F 1 "CSD17571Q2" H 7054 4405 50  0000 L CNN
-F 2 "Battery:Battery_CR1225" H 7050 4550 50  0001 C CNN
+F 2 "Boost_Comm:7inch_SON_2x2_mm" H 7050 4550 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/csd17571q2.pdf?ts=1605385207733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCSD17571Q2%253FCMP%253Dconv-poasamples" H 6850 4450 50  0001 C CNN
 	1    6850 4450
 	1    0    0    -1  

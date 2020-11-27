@@ -211,8 +211,6 @@ F 3 "" H 7100 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 3600 7100 3950
-Wire Wire Line
-	7100 3000 7350 3000
 Connection ~ 7100 3000
 Text Label 7350 3000 2    50   ~ 0
 Vout
@@ -315,4 +313,54 @@ F 3 "" H 4000 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 3300 5150 3300
+$Comp
+L Connector:Screw_Terminal_01x02 in_bus1
+U 1 1 5FBC6AC6
+P 4350 2800
+F 0 "in_bus1" H 4430 2792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4430 2701 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4350 2800 50  0001 C CNN
+F 3 "~" H 4350 2800 50  0001 C CNN
+	1    4350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 out_bus1
+U 1 1 5FBC7ECB
+P 7650 3000
+F 0 "out_bus1" H 7730 2992 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7730 2901 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7650 3000 50  0001 C CNN
+F 3 "~" H 7650 3000 50  0001 C CNN
+	1    7650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FBC9301
+P 7450 3100
+F 0 "#PWR0111" H 7450 2850 50  0001 C CNN
+F 1 "GND" H 7455 2927 50  0000 C CNN
+F 2 "" H 7450 3100 50  0001 C CNN
+F 3 "" H 7450 3100 50  0001 C CNN
+	1    7450 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5FBCA470
+P 4150 2900
+F 0 "#PWR0112" H 4150 2650 50  0001 C CNN
+F 1 "GND" H 4155 2727 50  0000 C CNN
+F 2 "" H 4150 2900 50  0001 C CNN
+F 3 "" H 4150 2900 50  0001 C CNN
+	1    4150 2900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2800 4000 2800
+Wire Wire Line
+	4000 2800 4000 3300
+Wire Wire Line
+	7100 3000 7450 3000
 $EndSCHEMATC
