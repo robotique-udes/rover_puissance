@@ -1,0 +1,11 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,out_bus1,TerminalBlock_bornier-2_P5.08mm,1,Screw_Terminal_01x02,
+2,Cboot1,C_0805_2012Metric,1,10nF,
+3,Cout1,CAP_TANT_2917,1,330uF,
+4,L1,L_Bourns_SRR1210A,1,15uH,
+5,Rfbb1,R_0805_2012Metric,1,3.24k,
+6,Rfbt1,R_0805_2012Metric,1,10k,
+7,U1,TI_SO-PowerPAD-8_ThermalVias,1,TPS5450DDA,
+8,D1,D_SMC,1,SBRD10200TR,
+9,Cin1,C_0805_2012Metric,3,10uF,
+10,in_bus1,TerminalBlock_bornier-2_P5.08mm,1,Screw_Terminal_01x02,
